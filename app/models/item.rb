@@ -6,4 +6,8 @@ class Item < ActiveRecord::Base
     #self.all.collect { |item| item if item.inventory > 0 }
     where("inventory > 0")
   end
+
+  def format_price
+    self.price.to_f / 100
+  end
 end
