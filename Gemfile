@@ -47,6 +47,6 @@ group :production do
 end
 
 gem "bootstrap-sass", "~> 3.1.1"
-gem "airbrake"
+#gem "airbrake"
 gem "faker"
 gem "friendly_id"
